@@ -18,4 +18,4 @@ server.use(cors());
 
 server.use(routes);
 
-server.listen(3333);
+server.listen(process.env.PORT||3333);
